@@ -86,6 +86,10 @@ La verdad que la subida ha sido muy tediosa al principio pero una vez entendido 
 
 ## 6.Annexos
 
-Links a DockerHub: 
+Links de las 3 capas a DockerHub: 
 
-https://hub.docker.com/repositories/docker/bieltomas/
+https://hub.docker.com/repository/docker/bieltomas/gai.phpmyadmin
+
+https://hub.docker.com/repository/docker/bieltomas/gai.mysql
+
+https://hub.docker.com/repository/docker/bieltomas/gai.tomcat
