@@ -73,7 +73,12 @@ Ahora usaremos `docker push` y el nombre que les hemos aignado para subirlas.
 
 ![image](https://user-images.githubusercontent.com/91564872/172458321-edfcb85c-f9d0-4308-aa04-bd28b67a7aae.png)
 
-Ahora todo seria dirgirse a nuestro repositorio de DockerHub para comprobar que todo se ha subido perfectamente.
+Ahora todo seria dirgirse a nuestro repositorio de DockerHub y a nuestra pagina para comprobar que todo se ha funcionado perfectamente.
+
+![image](https://user-images.githubusercontent.com/91564872/172459827-aa95e7a7-1956-4086-aaec-8fba4c169481.png)
+
+![image](https://user-images.githubusercontent.com/91564872/172460279-528b4ec1-9664-4d50-96a9-8d745531d45b.png)
+
 
 ## 5.Conclusiones
 
