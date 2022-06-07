@@ -49,6 +49,32 @@ Despues de procesar la construccion de la imagen usaremos el comando `sudo docke
 
 ## 4.Preparación y subida de la imagen a dockerhub.
 
+Primero de todo iniciaremos sesión en DockerHub mediante `sudo docker login` y nuestras credenciales.
 
+![image](https://user-images.githubusercontent.com/91564872/172456368-88805616-91af-434b-bd4c-878c2ef94d26.png)
+
+Ahora revisaremos las imagenes que tenemos mediante `sudo docker images`.
+
+![image](https://user-images.githubusercontent.com/91564872/172456582-f176a3fd-9859-4b97-8f2f-e4748b504336.png)
+
+De las imágenes que tenemos vamos a seleccionar las que queremos subir al repositorio remoto (). Tambien les vamos a añadir una etiqueta mediante `docker tag`.
+
+![image](https://user-images.githubusercontent.com/91564872/172457654-647861b1-d2ee-42cf-af21-1d5e485664e5.png)
+
+![image](https://user-images.githubusercontent.com/91564872/172457611-902e9958-8b55-4074-987f-00854750fedb.png)
+
+![image](https://user-images.githubusercontent.com/91564872/172457793-3f5d12b4-28d5-45bc-a54e-d7323578d455.png)
+
+Ahora usaremos `docker push` y el nombre que les hemos aignado para subirlas.
+
+![image](https://user-images.githubusercontent.com/91564872/172458108-2c24b416-1392-46d4-96ae-4a3dfdaef069.png)
+
+![image](https://user-images.githubusercontent.com/91564872/172458176-0b15a439-6534-4480-8811-d422d011ce97.png)
+
+![image](https://user-images.githubusercontent.com/91564872/172458321-edfcb85c-f9d0-4308-aa04-bd28b67a7aae.png)
+
+Ahora todo seria dirgirse a nuestro repositorio de DockerHub para comprobar que todo se ha subido perfectamente.
 
 ## 5.Conclusiones
+
+La verdad que la subida ha sido muy tediosa al principio pero una vez entendido el funcionamiento de Docker y DockerHub todo ha sido mas sencillo.
